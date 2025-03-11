@@ -1,3 +1,5 @@
+let path = require("path");
+
 const Post = require("../models/post.model");
 
 let findAllPost = async (req, res, next) => {
